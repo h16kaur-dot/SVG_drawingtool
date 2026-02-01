@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG Drawing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>SVG Drawing Tool</h2>
+
+    <div class="toolbar">
+        <span>Choose Color:</span>
+        <button class="color-btn" data-color="black"></button>
+        <button class="color-btn" data-color="red"></button>
+        <button class="color-btn" data-color="blue"></button>
+        <button class="color-btn" data-color="green"></button>
+
+        <br><br>
+        <button id="undoBtn">Undo</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <svg id="drawingCanvas" width="500" height="350"></svg>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
